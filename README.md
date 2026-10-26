@@ -11,6 +11,13 @@ Student homework: **ESP32 UART CLI testing** using Python, Pytest and PySerial, 
 
 The Wokwi firmware is provided separately in the course materials and is **not included** in this repository. Start the `homework_buggy` simulation before running tests.
 
+## Test report
+
+- [**Full QA Test Report (GitHub Markdown)**](docs/test-report.md) — results, five custom scenarios, four documented failures, evidence and limitations.
+- [**Google Docs report (editable)**](https://docs.google.com/document/d/1nAbP0ulq0aC19MI5TuiUNGAtnZK4YVzIr5v7H86u_xE/edit) — formatted original document.
+
+The Markdown file is a snapshot; edits made in Google Docs do not automatically update GitHub.
+
 ## Run on Windows (PowerShell)
 
 From the repository root:
