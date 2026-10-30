@@ -43,3 +43,10 @@ The **complete local course suite**, including the 14 original tests plus the 5 
 **Important:** This GitHub repository intentionally contains **only the five custom scenarios**, not the 14 original course cases. Running `python -m pytest -v` here collects five tests, not nineteen. The numbers above are historical local results, not GitHub CI results. They may vary based on the running firmware and environment.
 
 The fixture attempts RESET on teardown but does not yet establish a RESET precondition before each test; connection failures can affect cleanup.
+
+## Embedded QA Case Study — IoT Network Node
+
+A separate, complete **7-part risk-based testing case study** is available in [case-study/README.md](case-study/README.md). It covers ESP32 IoT architecture and scope, seven quality risks, twelve test scenarios, prior-practice evidence, four defect reports, entry/exit criteria and a simulation-scoped NO-GO decision.
+
+This is distinct from the Webinar 6 Python automation homework documented above.
+
